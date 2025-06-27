@@ -5,9 +5,9 @@
 
 
 ## ✍️ Narrative
-<table>
+<table border="0">
 <tr>
-  <td width="60%" valign="top">
+  <td width="50%" valign="top">
 
 <p>
 Every great invention begins with a simple inconvenience.  
@@ -31,8 +31,8 @@ One day, I asked myself:
 </p>
 
   </td>
-  <td width="40%" align="right">
-    <img src="../illustrations/chapter-01.png" width="300">
+  <td width="50%" align="right">
+    <img src="../illustrations/chapter-01.png">
   </td>
 </tr>
 </table>
