@@ -83,5 +83,5 @@ You can embed this later like:
 
 ```markdown
 <p align="center">
-  <img src="./illustrations/popp-cover.png" width="600">
+  <img src="./illustrations/popp-cover.png.png" width="600">
 </p>
