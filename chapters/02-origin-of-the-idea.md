@@ -5,9 +5,9 @@
 
 
 ## ✍️ Narrative
-<table border="0">
+<table style="border: none; border-collapse: collapse;">
 <tr>
-  <td width="50%" valign="top">
+  <td style="vertical-align: top; border: none;"  width="50%" valign="top">
 
 Every great invention begins with a simple inconvenience.  
 Mine began with a disconnected wire.  
@@ -24,7 +24,7 @@ And the broken line returned like clockwork.
 
 
   </td>
-  <td width="50%" align="right">
+  <td style="vertical-align: top; border: none;" width="50%" align="right">
     <img src="../illustrations/chapter-01.png">
   </td>
 </tr>
