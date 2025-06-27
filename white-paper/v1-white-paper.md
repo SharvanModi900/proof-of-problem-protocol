@@ -1,5 +1,5 @@
-```
-**Title:** The Proof-of-Problem Protocol (PoPP): A Decentralized Framework for Verifying, Validating, and Escalating Real-World Problems
+
+# **Title:** The Proof-of-Problem Protocol (PoPP): A Decentralized Framework for Verifying, Validating, and Escalating Real-World Problems
 
 **Author:** Sharvan Kumar
 **Version:** v1.0
