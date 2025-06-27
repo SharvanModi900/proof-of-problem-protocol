@@ -4,7 +4,7 @@
 **Author:** Sharvan Kumar
 **Version:** v1.0
 **Date:** June 26, 2025
-**Contact:** \[Your Email / GitHub / Website]
+**Contact:** sharvanmodi900@gmail.com
 
 ---
 
