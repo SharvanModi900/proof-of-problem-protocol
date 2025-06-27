@@ -80,7 +80,9 @@ You can include an optional reflection section at the end of each chapter like t
 
 ## 💡 Suggestion:
 You can later add a simple illustration like a **"broken wire turning into a protocol diagram"**, stored in `/illustrations/chapter-01.png`, and embed it like this:
-![Chapter 1 Illustration](../illustrations/chapter-01.png)
+<p align="center">
+  <img src="../illustrations/chapter-01.png" width="400">
+</p>
 
 
 ```markdown
