@@ -1,7 +1,7 @@
 # 📘 Chapter 1: The Origin of the Idea
 
 ---
-<p align="center">
+<p align="right">
   <img src="../illustrations/chapter-01.png" width="400">
 </p>
 
