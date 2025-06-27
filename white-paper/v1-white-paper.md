@@ -187,8 +187,8 @@ PoPP is designed to resist:
 
 ## 13. Team / Credits
 
-* **Sharvan Kumar** — Inventor & Architect
-  \[Contact, GitHub, Website]
+* **Sharvan Modi** — Inventor & Architect
+  \[Contact, sharvanmodi900@gmail.com]
 
 (Optional collaborators to be added)
 
