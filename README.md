@@ -72,7 +72,7 @@ It invites you—developers, thinkers, designers, and civic hackers—to co-crea
 
 - [📘 Introduction](./introduction.md)
 - [📘 Chapter 1: The Origin of the Idea](./chapters/01-origin-of-the-idea.md)
-- [📘 Chapter 2: What is a Problem?](./chapters/02-what-is-a-problem.md)
+- [📘 Chapter 2: What is a Problem? A Philosophical Inquiry](./chapters/02-what-is-a-problem.md)
 - (More coming soon...)
 
 ---
