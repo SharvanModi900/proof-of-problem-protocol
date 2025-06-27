@@ -83,5 +83,6 @@ You can embed this later like:
 
 ```markdown
 <p align="center">
-  <img src="./illustrations/chapter-01.png" width="600">
+  <img src="popp-cover.png" width="600" />
 </p>
+
