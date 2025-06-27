@@ -64,7 +64,9 @@ But **visibility**, **validation**, and **elevation**.
 > Unseen problems are.”
 
 ---
-
+<p align="right">
+  - [📘 Chapter 2: What is a Problem? A Philosophical Inquiry](./chapters/02-what-is-a-problem.md)
+</p>
 ## 🖼️ Suggested Illustration
 
 If you want to embed an image (like a stylized illustration of a “problem lens” or “truth scanner”), insert this:
