@@ -8,6 +8,7 @@
 <p align="right">
   <img src="../illustrations/chapter-01.png" width="400">
 </p>
+<p align="left">
 Every great invention begins with a simple inconvenience.  
 Mine began with a disconnected wire.  
 
@@ -20,7 +21,8 @@ Evening turned into night.
 Night turned into ritual.  
 And the broken line returned like clockwork.
 
-One day, I asked myself:  
+One day, I asked myself: 
+<p> 
 **Why is the complaint system so fragile?**  
 **Why does truth need repetition to be noticed?**
 
