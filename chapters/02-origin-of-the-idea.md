@@ -5,24 +5,38 @@
 
 
 ## ✍️ Narrative
-<p align="right">
-  <img src="../illustrations/chapter-01.png" width="400">
-</p>
-<p align="left">
+<table>
+<tr>
+  <td width="60%" valign="top">
+
+<p>
 Every great invention begins with a simple inconvenience.  
 Mine began with a disconnected wire.  
-
+<br><br>
 For weeks, my internet line was mysteriously cut—again and again.  
 I’d call support. I’d raise complaints.  
 Every time, the response was polite... and hollow:  
+</p>
+
 > “We’ll fix it by evening.”
 
+<p>
 Evening turned into night.  
 Night turned into ritual.  
-And the broken line returned like clockwork.
+And the broken line returned like clockwork.  
+<br><br>
+One day, I asked myself:  
+<b>Why is the complaint system so fragile?</b><br>
+<b>Why does truth need repetition to be noticed?</b>
+</p>
 
-One day, I asked myself: 
-<p> 
+  </td>
+  <td width="40%" align="right">
+    <img src="../illustrations/chapter-01.png" width="300">
+  </td>
+</tr>
+</table>
+
 **Why is the complaint system so fragile?**  
 **Why does truth need repetition to be noticed?**
 
