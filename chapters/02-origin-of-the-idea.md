@@ -1,13 +1,13 @@
 # 📘 Chapter 1: The Origin of the Idea
 
 ---
-<p align="right">
-  <img src="../illustrations/chapter-01.png" width="400">
-</p>
+
 
 
 ## ✍️ Narrative
-
+<p align="right">
+  <img src="../illustrations/chapter-01.png" width="400">
+</p>
 Every great invention begins with a simple inconvenience.  
 Mine began with a disconnected wire.  
 
