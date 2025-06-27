@@ -94,6 +94,8 @@ You can include an optional reflection section at the end of each chapter like t
 
 ## 💡 Suggestion:
 
-
+<p align="right">
+  - [📘 Chapter 2: What is a Problem? A Philosophical Inquiry](01-origin-of-the-idea.md)
+</p>
 
 ```markdown
