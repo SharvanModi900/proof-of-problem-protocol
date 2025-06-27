@@ -67,6 +67,9 @@ And it was born to ensure truth can’t be dropped.
 > _“The real problem isn’t the broken line.  
 > The real problem is that no one is accountable when it breaks.”_
 
+<p align="center">
+  <img src="../illustrations/chapter-01.png" width="400">
+</p>
 ---
 
 ## 🧠 Author's Reflection
