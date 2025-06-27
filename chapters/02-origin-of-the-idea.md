@@ -9,26 +9,19 @@
 <tr>
   <td width="50%" valign="top">
 
-<p>
 Every great invention begins with a simple inconvenience.  
 Mine began with a disconnected wire.  
-<br><br>
+
 For weeks, my internet line was mysteriously cut—again and again.  
 I’d call support. I’d raise complaints.  
 Every time, the response was polite... and hollow:  
-</p>
-
 > “We’ll fix it by evening.”
 
-<p>
 Evening turned into night.  
 Night turned into ritual.  
-And the broken line returned like clockwork.  
-<br><br>
-One day, I asked myself:  
-<b>Why is the complaint system so fragile?</b><br>
-<b>Why does truth need repetition to be noticed?</b>
-</p>
+And the broken line returned like clockwork.
+
+
 
   </td>
   <td width="50%" align="right">
