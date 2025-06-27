@@ -4,7 +4,7 @@
 <p align="center">
   <img src="../illustrations/chapter-01.png" width="400">
 </p>
----
+
 
 ## ✍️ Narrative
 
@@ -84,11 +84,7 @@ You can include an optional reflection section at the end of each chapter like t
 ---
 
 ## 💡 Suggestion:
-You can later add a simple illustration like a **"broken wire turning into a protocol diagram"**, stored in `/illustrations/chapter-01.png`, and embed it like this:
-<p align="center">
-  <img src="../illustrations/chapter-01.png" width="400">
-</p>
+
 
 
 ```markdown
-![Broken Wire to Protocol](../illustrations/chapter-01.png)
