@@ -24,7 +24,7 @@ And the broken line returned like clockwork.
 
 
   </td>
-  <td style="vertical-align: top; border: none;" width="50%" align="right">
+  <td style="border: none;" width="50%" align="right">
     <img src="../illustrations/chapter-01.png">
   </td>
 </tr>
