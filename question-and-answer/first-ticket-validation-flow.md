@@ -95,7 +95,7 @@ Weather oracle confirms power dip in area
 
 IPFS hash of image recorded on-chain
 
-✅ Ticket is marked Verified and assigned
+✅ Ticket is marked Verified and assigned 
 ❌ No prior reputation was needed
 
 # 🔐 Takeaway
