@@ -96,7 +96,7 @@ You can include an optional reflection section at the end of each chapter like t
 
 <div align="right">
 
-[Next → Chapter 3: From Complaint to Protocol](./02-what-is-a-problem.md)
+[Next → Chapter 2: What is a Problem? A Philosophical Inquiry](./02-what-is-a-problem.md)
 
 </div>
 
