@@ -125,11 +125,7 @@ It invites you—developers, thinkers, designers, and civic hackers—to co-crea
 
 ---
 
-## 🖼️ Want a Visual Cover?
-
-You can embed this later like:
-
-
+## 🖼️ The Visual Cover?
 <p align="center">
   <img src="popp-cover.png" width="600" />
 </p>
