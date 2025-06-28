@@ -177,6 +177,11 @@ In an age of AI-generated misinformation, political gaslighting, broken aid syst
 ---
 
 ## 🖼️ Suggested Illustration
+<div align="center">
+
+← [ Chapter 1: The Origin of the Idea](./01-origin-of-the-idea.md) &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [Next → Chapter 3: From Complaint to Protocol](./03-from-complaint-to-protocol.md)
+
+</div>
 
 If you want to embed an image (like a stylized illustration of a “problem lens” or “truth scanner”), insert this:
 
