@@ -1,6 +1,11 @@
 # 📘 Chapter 8: The Role of Validators and Proofers
 
 ---
+## 🔎 Who Ensures the Truth in PoPP?
+In any decentralized truth protocol, raw data is not enough. **Problems must be verified. Truth must be witnessed**. In PoPP, that role is not centralized. It is distributed among two powerful agents of the protocol: **Validators and Proofers**.
+
+They are not passive infrastructure.
+They are the **immune system** of the protocol — detecting deception, confirming reality, and escalating truth forward.
 
 ## 🧩 Who Ensures the Truth in PoPP?
 
