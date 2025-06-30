@@ -386,6 +386,8 @@ This architecture is inspired by systems theory, where each layer performs a spe
 
 In PoPP, the stack isn't just technical—it's ethical.
 Each layer reflects a deeper belief: that truth must be provable, action must be fair, and reputation must be earned.
+
+
 <img src="../illustrations/proof_of_problem_stack_visual.png"  width="50%" />
 
 **Figure:** The PoPP Layer Stack – A modular architecture illustrating the five foundational layers of the Proof-of-Problem Protocol: from decentralized problem submission at the base to reputation-driven incentives at the top, each layer plays a critical role in transforming raw complaints into verified, actionable truths.
@@ -460,6 +462,7 @@ This ensures truth is triangulated—not dictated.
 Security in PoPP is not about trust—it’s about verifiability without permission.
 Every actor in the system—user, validator, resolver—is both empowered and accountable
 through transparent, cryptographic, and game-theoretic design.
+
 <img src="../illustrations/popp_security_pillars_infographic.png"  width="50%" />
 
 **Figure:** The five core security pillars of the PoPP architecture—Data Integrity, Validator Privacy, Tamper Resistance, Sybil Protection, and Dispute Protocols—ensure the system remains verifiable, fraud-resistant, and trustworthy at every layer.
@@ -540,26 +543,26 @@ That’s what makes it not just decentralized, but resilient by design.
 ## 🧪 Case Study: A Real-World Problem Flowing Through the PoPP Stack
 Let’s walk through how a real-world issue travels across all five PoPP layers—from submission to resolution.
 # 🧾 Case Study 1: Contaminated Water in a Village
-
+### 📝 1. Problem Submission Layer
 - 📍 **Location:** Rajasthan, India  
 - 🕒 **Time:** 2025-06-30 10:12 AM IST  
 - 📸 **Evidence:** Video of murky water, child coughing  
 - 👤 **Identity:** Anonymous  
 - **Category:** Public Health → Water Contamination
 
-## 🔎 Validation Layer:
+### 🔎 2. Validation Layer:
 
 - **Human validator:** Public health worker confirms situation  
 - **AI validator:** Analyzes murkiness and detects illness indicators  
 - **IoT sensor:** Confirms high E. coli in well nearby  
 - ✅ **Score:** 89/100 → Complaint validated
 
-## 🔐 Proof Generation:
+## 🔐3.  Proof Generation:
 
 - **PoP-ID:** `pop://2025-06-30/rajasthan/water/abcde12345`  
 - Linked to **6 past reports** → systemic cluster formed
 
-## ⚙️ Escalation:
+## ⚙️ 4.  Escalation:
 
 - **Type:** Systemic  
 - **DAO triggers:**  
@@ -567,7 +570,7 @@ Let’s walk through how a real-world issue travels across all five PoPP layers�
   - 🧪 Lab testing  
   - 📢 Public alert
 
-## 📊 Reward Layer:
+## 📊 5.  Reward Layer:
 
 - **Whistleblower:** +10 PoPP Credits  
 - **Human validator:** +5 PRS  
@@ -577,30 +580,30 @@ Let’s walk through how a real-world issue travels across all five PoPP layers�
 ---
 
 # 🛣 Case Study 2: Pothole on a Busy City Road
-
+### 📝 1. Problem Submission Layer
 - 📍 **Location:** Bengaluru, India  
 - 📆 **Date:** 2025-07-01  
 - 📸 **Evidence:** Photo of pothole + injury  
 - 👤 **Identity:** Verified (via Aadhaar)
 
-## 🔎 Validation Layer:
+## 🔎 2. Validation Layer:
 
 - **Citizen:** Confirms location  
 - **AI:** Verifies image and GPS  
 - **Traffic camera:** Shows 3 near-accidents  
 - ✅ **Score:** 91/100 → Complaint validated
 
-## 🔐 Proof Generation:
+## 🔐 3. Proof Generation:
 
 - **PoP-ID:** `pop://2025-07-01/bengaluru/infrastructure/pothole4512`
 
-## ⚙️ Escalation:
+## ⚙️ 4. Escalation:
 
 - **Type:** Local DAO  
 - **DAO allocates:** ₹5,000  
 - **Civic dept notified:** 72-hour SLA
 
-## 📊 Reward Layer:
+## 📊 5. Reward Layer:
 
 - **Cyclist:** +6 PoPP Credits  
 - **Validators:** Micro-rewards  
@@ -609,31 +612,31 @@ Let’s walk through how a real-world issue travels across all five PoPP layers�
 ---
 
 # 🕵️‍♂️ Case Study 3: Bribery in Vehicle Licensing Office
-
+### 📝 1. Problem Submission Layer
 - 📍 **Location:** Lucknow, India  
 - 📆 **Date:** 2025-07-02  
 - 📁 **Evidence:** Audio + scanned document  
 - 👤 **Identity:** Anonymous (zk-proof)
 
-## 🔎 Validation Layer:
+## 🔎 2. Validation Layer:
 
 - **Legal expert:** Verifies audio legality  
 - **AI:** Detects corruption-linked speech patterns  
 - **Match:** 4 previous reports from same office  
 - ✅ **Score:** 87/100 → Triggers systemic flag
 
-## 🔐 Proof Generation:
+## 🔐 3. Proof Generation:
 
 - **PoP-ID:** `pop://2025-07-02/lucknow/corruption/bribe_clerk23`
 
-## ⚙️ Escalation:
+## ⚙️ 4. Escalation:
 
 - **Type:** Systemic  
 - **DAO smart contract triggers:**  
   - Alert to ombudsman + media  
   - Legal team activated
 
-## 📊 Reward Layer:
+## 📊5.  Reward Layer:
 
 - **Whistleblower:** +20 PoPP Credits  
 - **DAO:** Earns trust score  
