@@ -299,3 +299,91 @@ Everyone can report. Only truth progresses. Action follows proof.
 <img src="../illustrations/popp_problem_ticket_lifecycle_flowchart.png"  width="50%" />
 
 **Figure:** *The Lifecycle of a Problem Ticket — From Submission to Action, as executed by the layered PoPP architecture*.
+
+## 🔍 Visualization: PoPP Layer Stack
+The PoPP Layer Stack isn’t just a technical hierarchy—it’s a philosophical design that turns individual complaint signals into collective civic intelligence. Each layer is modular yet interdependent, ensuring trust, transparency, and traction.
+
+### 🔹 1. 📝 Problem Submission Layer
+Foundation of the Stack – **“Input Layer”**
+
+This is the entry gate into the PoPP system. It must balance openness with standardization. The goal is to ensure anyone, anywhere, can report an issue—while also collecting structured, actionable metadata.
+
+#### Key Principles:
+**Decentralized Access:** Anyone can submit; no gatekeepers.
+
+**Multi-Modal Input:** Supports mobile, web, IoT, voice, and even anonymous agents.
+
+**Metadata Integrity:** All data is signed and timestamped to preserve chain-of-custody.
+
+**🧠 Design insight:** This layer is designed for high entropy — lots of different types of inputs, some good, some false. The upper layers filter signal from noise.
+
+### 🔹 2. 🔎 Validation Layer
+Signal Filtering Layer – **“Truth Gate”**
+
+This layer determines whether a problem is real. It embodies collective intelligence—blending the judgment of humans, the pattern detection of AI, and the objectivity of sensors.
+
+#### Core Mechanisms:
+**Multi-source Verification:** At least two out of three (Human, AI, Sensor) should agree.
+
+**Reputation-Based Weighting:** High-trust validators carry more weight.
+
+**Dispute Handling:** If validators disagree, issues are sent for cross-checking.
+
+**🔐 Design insight:** This is the truth discriminator. If the submission layer is the **“wildfire,”** this is the **“firewall.”**
+
+### 🔹 3. 🔐 Proof Generation Layer
+Ledger Anchor Layer – **“Truth Committed”**
+
+This layer immortalizes validated issues by anchoring them into a distributed ledger. It transforms a complaint into a cryptographic proof of existence, giving it permanence and public accountability.
+
+#### Features:
+**Hashing:** Uses strong cryptographic functions to encode the problem.
+
+**Ledger Entry:** Issues are stored in PoPPChain or compatible chains (e.g., IPFS + Ethereum).
+
+**Issue Linking:** Similar issues are clustered for systemic pattern recognition.
+
+**📚 Design insight:** Think of this as the library of unresolved truths—each entry is timestamped and cannot be retroactively changed.
+
+### 🔹 4. ⚙️ Escalation Layer
+Activation Layer – **“Where Truth Triggers Action”**
+
+Validated and proven problems must now find resolution. This layer ensures that important problems don’t get lost. Instead, they are routed through smart contracts and DAO rules for appropriate handling.
+
+#### Escalation Logic:
+**Local Issues:** Sent to DAO or community response groups.
+
+**Systemic Issues:** Forwarded to policy networks, regulators, or non-profits.
+
+**Critical Threats:** Trigger alarms, public dashboards, or emergency smart contract execution.
+
+**🧬 Design insight:** This layer encodes urgency + context → into programmable action. It brings justice without human bottlenecks.
+
+### 🔹 5. 📊 Reputation & Reward Layer
+Sustainability Layer – **“Behavior Engine”**
+
+This final layer ensures that validators, whistleblowers, and resolvers are incentivized properly. It introduces game theory and economics into the protocol.
+
+#### Key Metrics & Features:
+**Proof Respect Score (PRS):** A transparent measure of trustworthiness and contribution.
+
+**PoPP Credits:** Earned tokens for verified good actions.
+
+**Slashing:** Bad validators are demoted or penalized.
+
+**Governance Rights:** High scorers earn voting privileges.
+
+**💰 Design insight:** This layer transforms participation into reputation capital, ensuring quality rises and bad actors are naturally weeded out.
+
+#### 🧩 Why a Layered Stack Matters
+This architecture is inspired by systems theory, where each layer performs a specialized task but also contributes to a larger goal: civic transformation.
+
+**✅ Modular:** Each layer can be improved independently.
+
+**✅ Composable:** Integrates with other protocols (e.g., Arweave, IPFS, Chainlink).
+
+**✅ Auditable:** Every interaction across layers is logged and provable.
+
+In PoPP, the stack isn't just technical—it's ethical.
+Each layer reflects a deeper belief: that truth must be provable, action must be fair, and reputation must be earned.
+
