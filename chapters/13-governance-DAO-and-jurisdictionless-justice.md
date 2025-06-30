@@ -23,6 +23,7 @@ It ensures:
 | 🎖️ Validator Certification | Approve or revoke validator licenses based on R-Scores |
 | 🛡️ Emergency Override | Trigger actions in critical conditions (e.g., coordinated attacks or systemic abuse) |
 
+
 ## 🌍 Jurisdictionless Justice
 Traditional courts are bound by nations, borders, and bureaucracy.  
 **PoPP** introduces the idea of *Jurisdictionless Justice*—a global public court for verifiable problems.
