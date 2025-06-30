@@ -296,5 +296,5 @@ Every resolved or escalated issue is recorded for future audits, policy feedback
 This lifecycle embodies the PoPP philosophy:
 Everyone can report. Only truth progresses. Action follows proof.
 
-<img src="../illustrations/popp_problem_ticket_lifecycle_flowchart.png">
+<img src="../illustrations/popp_problem_ticket_lifecycle_flowchart.png"  width="50%">
 **Figure:** *The Lifecycle of a Problem Ticket — From Submission to Action, as executed by the layered PoPP architecture*.
