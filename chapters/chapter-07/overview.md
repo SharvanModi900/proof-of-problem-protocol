@@ -1,15 +1,15 @@
-🔹 1. Infrastructure & Civic Services
-#	Use Case
-1	Pothole on a main road causing accidents
-2	Broken streetlight near school zone
-3	Overflowing garbage in residential areas
-4	Malfunctioning traffic signal
-5	Unmaintained public park
-6	Collapsed footbridge
-7	Waterlogging after rainfall
-8	Inaccessible public toilets
-9	Unauthorized construction blocking road
-10	Damaged electric poles sparking fire risk
+# 🔹 1. Infrastructure & Civic Services
+##	Use Case
+- 1	Pothole on a main road causing accidents
+- 2	Broken streetlight near school zone
+- 3	Overflowing garbage in residential areas
+- 4	Malfunctioning traffic signal
+- 5	Unmaintained public park
+- 6	Collapsed footbridge
+- 7	Waterlogging after rainfall
+- 8	Inaccessible public toilets
+- 9	Unauthorized construction blocking road
+- 10	Damaged electric poles sparking fire risk
 
 🔹 2. Public Health
 #	Use Case
