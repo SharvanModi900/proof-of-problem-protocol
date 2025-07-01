@@ -10,124 +10,124 @@
 - 8	Inaccessible public toilets
 - 9	Unauthorized construction blocking road
 - 10	Damaged electric poles sparking fire risk
- ---
+
 # 🔹 2. Public Health
 
 ##	Use Case
-11	Contaminated village water supply
-12	Expired medicines being sold
-13	Unlicensed clinic operating illegally
-14	Lack of sanitation in rural health centers
-15	No doctors during emergency night shift
-16	COVID test scams
-17	High mosquito infestation and dengue outbreak
-18	Delay in ambulance services
-19	Fake vaccination drive
-20	Industrial pollution causing respiratory issues
+- 11	Contaminated village water supply
+- 12	Expired medicines being sold
+- 13	Unlicensed clinic operating illegally
+- 14	Lack of sanitation in rural health centers
+- 15	No doctors during emergency night shift
+- 16	COVID test scams
+- 17	High mosquito infestation and dengue outbreak
+- 18	Delay in ambulance services
+- 19	Fake vaccination drive
+- 20	Industrial pollution causing respiratory issues
 
-🔹 3. Corruption & Governance
-#	Use Case
-21	Bribe demanded for license issuance
-22	Ghost employees on government payroll
-23	Rigged tender process
-24	Voter suppression or rigging
-25	Stalled pensions unless bribes paid
-26	Fake government survey collectors
-27	Funds misappropriated in MLA development grants
-28	Fake certificates for land ownership
-29	Nepotism in job hiring for government posts
-30	Deliberate delay in public file processing for money
+# 🔹 3. Corruption & Governance
+##	Use Case
+- 21	Bribe demanded for license issuance
+- 22	Ghost employees on government payroll
+- 23	Rigged tender process
+- 24	Voter suppression or rigging
+- 25	Stalled pensions unless bribes paid
+- 26	Fake government survey collectors
+- 27	Funds misappropriated in MLA development grants
+- 28	Fake certificates for land ownership
+- 29	Nepotism in job hiring for government posts
+- 30	Deliberate delay in public file processing for money
 
-🔹 4. Education
-#	Use Case
-31	Government school with no teacher attendance
-32	Exam paper leak via corrupt officials
-33	Schools refusing admission to underprivileged children
-34	Misuse of school funds meant for midday meals
-35	Sexual harassment cover-up in school
-36	Student bribes for seat allocation
-37	False educational credentials for promotion
-38	Ghost schools with no students, but active funding
-39	Lack of inclusive infrastructure (no ramps, no Braille)
-40	Online classes disrupted due to political reasons
+# 🔹 4. Education
+##	Use Case
+- 31	Government school with no teacher attendance
+- 32	Exam paper leak via corrupt officials
+- 33	Schools refusing admission to underprivileged children
+- 34	Misuse of school funds meant for midday meals
+- 35	Sexual harassment cover-up in school
+- 36	Student bribes for seat allocation
+- 37	False educational credentials for promotion
+- 38	Ghost schools with no students, but active funding
+- 39	Lack of inclusive infrastructure (no ramps, no Braille)
+- 40	Online classes disrupted due to political reasons
 
-🔹 5. Environmental Monitoring
-#	Use Case
-41	Illegal sand mining near riverbank
-42	Unauthorized deforestation in tribal area
-43	Chemical dumping in river by factories
-44	Industrial waste smoke detected via drone sensor
-45	Protected wildlife area encroachment
-46	Plastic waste burning by contractors
-47	Noise pollution breach during night hours
-48	Unlicensed fireworks storage near schools
-49	Destruction of mangrove forests for real estate
-50	Oil spill detected in coastal village
+# 🔹 5. Environmental Monitoring
+##	Use Case
+- 41	Illegal sand mining near riverbank
+- 42	Unauthorized deforestation in tribal area
+- 43	Chemical dumping in river by factories
+- 44	Industrial waste smoke detected via drone sensor
+- 45	Protected wildlife area encroachment
+- 46	Plastic waste burning by contractors
+- 47	Noise pollution breach during night hours
+- 48	Unlicensed fireworks storage near schools
+- 49	Destruction of mangrove forests for real estate
+- 50	Oil spill detected in coastal village
 
-🔹 6. Labor & Human Rights
-#	Use Case
-51	Bonded labor in brick kilns
-52	Child labor in textile factory
-53	Workplace harassment ignored by HR
-54	Migrant workers denied payment
-55	Discrimination in hiring based on caste/religion
-56	Minimum wage violations in gig economy
-57	Unsafe factory working conditions
-58	Threats against union members
-59	No restrooms for female workers
-60	Whistleblowers terminated without notice
+# 🔹 6. Labor & Human Rights
+##	Use Case
+- 51	Bonded labor in brick kilns
+- 52	Child labor in textile factory
+- 53	Workplace harassment ignored by HR
+- 54	Migrant workers denied payment
+- 55	Discrimination in hiring based on caste/religion
+- 56	Minimum wage violations in gig economy
+- 57	Unsafe factory working conditions
+- 58	Threats against union members
+- 59	No restrooms for female workers
+- 60	Whistleblowers terminated without notice
 
-🔹 7. Transportation & Mobility
-#	Use Case
-61	Overcharging by taxi or autorickshaw
-62	Illegal toll collection
-63	Unlicensed driving schools
-64	Bridge declared "safe" collapses next day
-65	Tampering with speed radar fines
-66	Drunk bus drivers reported by passengers
-67	Police refusing to file FIR for road accident
-68	Public transport GPS manipulation
-69	Gender-based harassment in metro/train
-70	Frequent derailments on same railway track
+# 🔹 7. Transportation & Mobility
+##	Use Case
+- 61	Overcharging by taxi or autorickshaw
+- 62	Illegal toll collection
+- 63	Unlicensed driving schools
+- 64	Bridge declared "safe" collapses next day
+- 65	Tampering with speed radar fines
+- 66	Drunk bus drivers reported by passengers
+- 67	Police refusing to file FIR for road accident
+- 68	Public transport GPS manipulation
+- 69	Gender-based harassment in metro/train
+- 70	Frequent derailments on same railway track
 
-🔹 8. Digital & Cybercrime
-#	Use Case
-71	Phishing SMS targeting pensioners
-72	Government website data breach
-73	OTP scam traced to local telecom vendor
-74	Cyberstalking case unacknowledged by police
-75	Fake loan apps harvesting data
-76	e-Governance portal logging errors & file loss
-77	Fraudulent crypto exchanges
-78	AI-generated deepfakes used for extortion
-79	School's online learning app leaking student data
-80	Social media censorship of whistleblower posts
+# 🔹 8. Digital & Cybercrime
+##	Use Case
+- 71	Phishing SMS targeting pensioners
+- 72	Government website data breach
+- 73	OTP scam traced to local telecom vendor
+- 74	Cyberstalking case unacknowledged by police
+- 75	Fake loan apps harvesting data
+- 76	e-Governance portal logging errors & file loss
+- 77	Fraudulent crypto exchanges
+- 78	AI-generated deepfakes used for extortion
+- 79	School's online learning app leaking student data
+- 80	Social media censorship of whistleblower posts
 
-🔹 9. Energy & Utilities
-#	Use Case
-81	False electricity bills for disconnected houses
-82	Power cuts manipulated to waive off line fault repair
-83	Water tanker mafia controlling supply
-84	Solar panel installation scam
-85	Public transformer left exposed for months
-86	Electricity theft by high-income building
-87	Tampered smart meters in rural areas
-88	LPG delivery scam in ration system
-89	Power outage hiding industrial pollution
-90	Delayed repair tickets for damaged pipelines
+# 🔹 9. Energy & Utilities
+##	Use Case
+- 81	False electricity bills for disconnected houses
+- 82	Power cuts manipulated to waive off line fault repair
+- 83	Water tanker mafia controlling supply
+- 84	Solar panel installation scam
+- 85	Public transformer left exposed for months
+- 86	Electricity theft by high-income building
+- 87	Tampered smart meters in rural areas
+- 88	LPG delivery scam in ration system
+- 89	Power outage hiding industrial pollution
+- 90	Delayed repair tickets for damaged pipelines
 
-🔹 10. Emergency & Disaster Response
-#	Use Case
-91	Fake NGOs collecting disaster relief funds
-92	Evacuation order delays during floods
-93	Fire safety violations in hospitals
-94	False alarms used to manipulate aid supply
-95	Relief supplies hoarded by local officials
-96	Missing persons cases ignored post-earthquake
-97	Drones detect unreported landslide zone
-98	Weather warnings ignored by district authority
-99	Collapsed dam reports suppressed
-100	Ambulance delay during city-wide blackout
+# 🔹 10. Emergency & Disaster Response
+##	Use Case
+- 91	Fake NGOs collecting disaster relief funds
+- 92	Evacuation order delays during floods
+- 93	Fire safety violations in hospitals
+- 94	False alarms used to manipulate aid supply
+- 95	Relief supplies hoarded by local officials
+- 96	Missing persons cases ignored post-earthquake
+- 97	Drones detect unreported landslide zone
+- 98	Weather warnings ignored by district authority
+- 99	Collapsed dam reports suppressed
+- 100	Ambulance delay during city-wide blackout
 
 🚀 What’s Next?
 Would you like:
