@@ -10,9 +10,9 @@
 - 8	Inaccessible public toilets
 - 9	Unauthorized construction blocking road
 - 10	Damaged electric poles sparking fire risk
-
+ ---
 # 🔹 2. Public Health
----
+
 ##	Use Case
 11	Contaminated village water supply
 12	Expired medicines being sold
