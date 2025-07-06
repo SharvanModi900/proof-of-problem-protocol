@@ -89,6 +89,40 @@ A world where:
 
 ---
 
+## 📑 Table of Contents
+
+1. [Why Interoperability Matters](#-why-interoperability-matters)
+2. [Integration Pathways](#-integration-pathways)
+3. [Institutional Compatibility](#-institutional-compatibility)
+4. [Examples of Integration](#-examples-of-integration)
+5. [Legal System Adaptation](#-legal-system-adaptation)
+6. [Interfacing with AI and IoT](#-interfacing-with-ai-and-iot)
+7. [Developer SDKs & Civic Adapters](#-developer-sdks--civic-adapters)
+8. [Semantic Interoperability](#-semantic-interoperability)
+9. [Cross-Border Interoperability & Data Sovereignty](#-cross-border-interoperability--data-sovereignty)
+10. [Verifiable Data Exchange Protocols](#-verifiable-data-exchange-protocols)
+11. [Security, Privacy & Rate-Limited Exposure](#-security-privacy--rate-limited-exposure)
+12. [Interoperability Literacy Programs](#-interoperability-literacy-programs)
+13. [Interoperability DAO](#-interoperability-dao)
+14. [Ontology Alignment & Global Standards](#-ontology-alignment--global-standards)
+15. [Institutional Memory Integration](#-institutional-memory-integration)
+16. [Conflict Zone and UN Compatibility](#-conflict-zone-and-un-compatibility)
+17. [Interop Testing Lab & Simulations](#-interop-testing-lab--simulations)
+18. [Interop With Other Web3 Protocols](#-interop-with-other-web3-protocols)
+19. [Cognitive UX Layer for Non-Technical Users](#-cognitive-ux-layer-for-non-technical-users)
+20. [Interoperability With Decentralized Protocols](#-cross-border-interoperability--data-sovereignty)
+21. [Failover Protocols and Reversion Fallbacks](#-interop-testing-lab--simulations)
+22. [Adoption Roadmaps by Sector](#-interoperability-literacy-programs)
+23. [Case Study-Ready Architecture](#-examples-of-integration)
+24. [Quote Block and Forward-Looking Close](#-quote-block)
+
+---
+
+<!-- Chapter continues here with full content as updated previously -->
+s
+
+---
+
 ## 🌉 Why Interoperability Matters
 
 PoPP is not a closed-world protocol. It is designed to function as a **truth bridge**—connecting decentralized civic action with centralized institutions, legacy software, and real-world service systems.
