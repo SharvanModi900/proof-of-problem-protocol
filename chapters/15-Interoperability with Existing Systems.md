@@ -119,7 +119,7 @@ A world where:
 ---
 
 <!-- Chapter continues here with full content as updated previously -->
-s
+
 
 ---
 
