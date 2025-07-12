@@ -179,3 +179,54 @@ This document contains a categorized and tagged list of 100 unique domains where
 | 173 | AI Ignoring Indigenous Knowledge Systems | Cultural AI Bias          | datasets, tradition             |
 | 174 | Suppression of Activists via AI Tools    | Political Repression      | surveillance, dissent           |
 | 175 | PoPP System Capture by State Actors      | Meta-Governance           | control, protocol abuse         |
+| --- | ------------------------------------ | ----------------------- | ---------------------- |
+| 176 | Agriculture & Farmer Rights          | Rural Justice           | farming, subsidy       |
+| 177 | Land Records & Title Conflicts       | Civic Systems           | property, dispute      |
+| 178 | Mining & Extraction Ethics           | Environment             | mining, exploitation   |
+| 179 | Wildlife Conservation Violations     | Environmental Justice   | poaching, law          |
+| 180 | Telecom Infrastructure Abuse         | Digital Infrastructure  | towers, EMF            |
+| 181 | E-Waste Management                   | Environment             | electronics, disposal  |
+| 182 | Global Labor Rights                  | Labor & Human Rights    | exploitation, worker   |
+| 183 | Land Access for Marginalized Genders | Land & Gender Justice   | ownership, rights      |
+| 184 | Medical Equipment Oversight          | Health Systems          | devices, safety        |
+| 185 | Vaccine Distribution Failures        | Public Health           | logistics, coldchain   |
+| 186 | Cryptocurrency Crimes                | Financial Crimes        | crypto, ponzi          |
+| 187 | Autonomous Weapon Ethics             | Global Tech Policy      | robotics, war          |
+| 188 | Intern & Youth Labor Exploitation    | Labor Policy            | youth, internships     |
+| 189 | Community Water Rights               | Water Justice           | tank, access           |
+| 190 | Examination & Education Integrity    | Education Governance    | cheating, leaks        |
+| 191 | Digital Commerce Ethics              | Consumer Protection     | ecom, darkpattern      |
+| 192 | NGO Transparency & Accountability    | Nonprofit Oversight     | funds, audit           |
+| 193 | Voice Assistant Bias                 | AI & UX Ethics          | NLP, fairness          |
+| 194 | Gig & Platform Worker Rights         | Labor 2.0               | gig, apps              |
+| 195 | Ocean & Plastic Pollution            | Environment             | plastic, marine        |
+| 196 | Electoral Infrastructure Security    | Democracy               | evm, rigging           |
+| 197 | Biotech Intellectual Property        | IP Governance           | patent, research       |
+| 198 | Disaster Risk Management             | Safety & Resilience     | floods, earthquake     |
+| 199 | Fintech Lending Regulation           | Finance Ethics          | apps, fraud            |
+| 200 | Academic Publishing & Censorship     | Knowledge Access        | gatekeeping, IP        |
+| 201 | Drone & Sensor Privacy               | Surveillance Tech       | UAV, intrusion         |
+| 202 | Digital Accessibility & Inclusion    | Disability Rights       | UX, access             |
+| 203 | Private Hostel & Youth Safety        | Education Welfare       | housing, student       |
+| 204 | Migrant Labor Justice                | Labor Migration         | seasonal, exploitation |
+| 205 | Credit Rating Fairness               | Financial Equity        | bias, fintech          |
+| 206 | Gender-Tech Justice                  | Intersectional AI       | wearables, fairness    |
+| 207 | Industrial Waste Monitoring          | Environmental Oversight | factories, waste       |
+| 208 | Tribal Food Security                 | Rural Health            | malnutrition, equity   |
+| 209 | Predictive Policing Algorithms       | AI in Law               | surveillance, bias     |
+| 210 | National Power Grid Ethics           | Energy Policy           | control, blackout      |
+| 211 | Cultural IP & Copyright              | Heritage                | content, misuse        |
+| 212 | Refugee Camp Governance              | Humanitarian            | protection, audit      |
+| 213 | Insurance Claim Transparency         | Financial Justice       | denial, fraud          |
+| 214 | Digital Identity & Cybercrime        | Cybersecurity           | data, privacy          |
+| 215 | Peacekeeper Misconduct               | Global Oversight        | abuse, military        |
+| 216 | Medical Privacy & Consent            | Digital Health          | EHR, records           |
+| 217 | Greenwashing & ESG Misuse            | Corporate Ethics        | carbon, audit          |
+| 218 | Human-AI Labor Exploitation          | Automation & Fair Work  | data-labeling          |
+| 219 | Procurement & Tender Fraud           | Public Finance          | fakebidding            |
+| 220 | Religious Service Oversight          | Ethics & Pilgrimage     | safety, crowd          |
+| 221 | Commercial Real Estate Ethics        | Urban Planning          | malls, safety          |
+| 222 | Neural Data Commercialization        | Neuro Rights            | EEG, consent           |
+| 223 | Gendered App Safety                  | Feminist Tech           | stalking, location     |
+| 224 | Cemetery & Heritage Rights           | Land & History          | urbanization           |
+| 225 | AI-Created Deepfakes                 | Truth & Identity        | misinformation         |
