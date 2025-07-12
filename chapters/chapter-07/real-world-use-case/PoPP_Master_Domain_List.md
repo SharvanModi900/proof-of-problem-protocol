@@ -154,7 +154,6 @@ This document contains a categorized and tagged list of 100 unique domains where
 | 148 | Military Veteran Pension Delays          | Administrative Justice    | benefits, delay                 |
 | 149 | Patents on Indigenous Knowledge          | Intellectual Property     | exploitation, biopiracy         |
 | 150 | Vaccine Trial Misreporting               | Health Ethics             | data manipulation, risk         |
-
 | 151 | Brainwave Surveillance Abuse             | Neuro Rights              | neural, privacy, consent        |
 | 152 | Cognitive Consent Exploitation           | Neuro Rights              | ethics, neuroscience            |
 | 153 | Neural Implant Bias                      | Neuro Rights              | AI, brain, discrimination       |
