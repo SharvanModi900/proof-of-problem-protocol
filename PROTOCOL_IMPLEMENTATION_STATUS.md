@@ -457,29 +457,168 @@ Three custom Cosmos SDK modules:
 
 ---
 
+## The 5 Roles in PoPP
+
+| Role | Who | What they do |
+|------|-----|-------------|
+| **Reporter** | Any citizen with the app | Submits a problem with photo + GPS |
+| **Validator** | Staked, reputation-weighted | Votes valid/invalid/flag on submissions |
+| **Proofer** | Certified validators | Generates cryptographic proof at consensus |
+| **Resolver** | Anyone (institution, volunteer, citizen) | Marks problem as fixed/rejected |
+| **Governor** | Token holders | Proposes and votes on protocol rule changes |
+
+One person can hold multiple roles. A Reporter can also become a Validator by staking tokens.
+
+### Reward Structure
+
+| Action | PoPP Credits | R-Score | On-Chain |
+|--------|-------------|---------|----------|
+| Submit problem (resolved) | +50 | +5 | Yes |
+| Validate correctly | +10 | +3 | Yes |
+| Validate incorrectly | 0 | -3 | No |
+| Resolve a ticket | +15 | +4 | No |
+| Generate proof | +20 | +5 | Yes |
+| Support community voting | 0 | +1 | No |
+| Get slashed (bad vote) | -5 stake | -3 | No |
+
+---
+
+## Community Screen — Protocol Layer Mapping
+
+The Community screen (`(tabs)/community.tsx`) is a **social dashboard** that visualizes the output of all 7 layers through aggregated statistics.
+
+| Section | Protocol Layer | How |
+|---------|---------------|-----|
+| Community Pulse (Active / Resolved / Consensus / Disputed) | L1 + L3 + L5 + L6 | Computed from submissions: status counts (L1/L6), avg consensus_score (L3), dispute rate (L5) |
+| Problems by Category | L1 + L2 | Submissions carry AI-assigned categories (L2) on top of user-selected category (L1) |
+| Ticket Status Grid | L1→L6 | Status reflects current layer in lifecycle: submitted→pending_validation→validated→under_resolution→resolved→archived |
+| Escalation Alerts | L5 | Filters submissions where status=disputed OR escalation_level=regional/global |
+| Trending Problems | L3 + L4 | Sorted by consensus_score — highest validator agreement = most validated problems |
+| Active Governance | L7 | Shows active DAO proposals with yes/no vote bars |
+| Top Validators | L3 + L6 | Leaderboard ranked by R-Score earned through correct votes and reward distribution |
+
+**Data flow:**
+```
+api.getSubmissions()  ──→  computeStats()  ──→  Community Pulse + Category + Status
+api.getProposals()    ──→  filter active    ──→  Active Governance section
+api.getLeaderboard()  ──→  top 5            ──→  Top Validators section
+```
+
+All 3 API calls fire in parallel via `Promise.all` with `.catch(() => [])` fallback.
+
+---
+
+## Map Screen — Protocol Layer Mapping
+
+The Map screen (`(tabs)/map.tsx`) is a **geospatial dashboard** that overlays protocol data on a Leaflet/OpenStreetMap WebView.
+
+### Submission Markers (color-coded pins)
+
+| Marker Color | Status | Protocol Layer |
+|-------------|--------|---------------|
+| Blue (#3b82f6) | Submitted | L1 — Problem submitted, awaiting AI |
+| Amber (#f59e0b) | Pending Validation | L2/L3 — AI analyzed, awaiting validators |
+| Green (#22c55e) | Validated | L3 — Validator consensus reached |
+| Purple (#8b5cf6) | Under Resolution | L6 — Being resolved |
+| Red (#ef4444) | Disputed | L5 — Escalated or challenged |
+| Cyan (#06b6d4) | Resolved | L6 — Problem fixed, rewards distributed |
+| Gray (#6b7280) | Archived | End of lifecycle — archived by scheduler |
+
+Tap on marker → navigates to ticket detail screen (all layers visible).
+
+### Road Segments (polylines + health dots)
+
+| Feature | Protocol Layer | How |
+|---------|---------------|-----|
+| Road polylines (dashed lines) | L1 + L2 + L3 | Problems linked to segments (L1), AI severity affects health (L2), validator consensus affects health (L3) |
+| Health dots (size = severity) | Infrastructure Health | health_score 0-10: green (8-10) → yellow (6-7) → orange (4-5) → red (2-3) → dark red (0-1) |
+| Warning rings on bad segments | L5 | Segments with health < 5 get a visible warning ring |
+| Tap → segment detail sheet | L1 + L2 | Shows score, name, status, severity, problem count, speed recommendation, linked problems list |
+
+### Infrastructure Zones (circles)
+
+| Feature | Protocol Layer | How |
+|---------|---------------|-----|
+| Zone circles (schools, hospitals, water, power) | L1 + L2 | Problems matched to zones (L1), AI severity → zone health score (L2) |
+| Tap → zone detail sheet | L1 + L2 | Shows health score, type, radius, severity, problem count, linked problems |
+| Filter chips (All/Roads/Schools/Hospitals/Water/Power) | UI filter | Client-side filter on zone_type |
+
+### Other Map Features
+
+| Feature | Protocol Layer | How |
+|---------|---------------|-----|
+| Route Health Card (avg score + Start Ride) | L1+L2+L3 | Aggregated segment scores along route → speed recommendation |
+| Nearby Alerts (proximity warnings) | L1 + L5 | Critical problems within 1km of user = proximity warning, header updates with alert |
+| Legend Popup | Reference | Shows road health colors + problem status colors |
+| Center on User | Location | GPS → animateToRegion |
+| Region Change → Reload | Performance | `onRegionChangeComplete` re-fetches segments for new bounding box |
+| Stats Badge | L1 + Infra | Shows segment count + zone count in viewport |
+
+### Map Data Flow
+
+```
+fetchMapData(bbox) ──→ Promise.all([
+  getRoadSegments(bbox)     → polylines + circles (road dots)
+  getInfrastructureZones()  → circles (zone overlays)
+  getSubmissions()          → markers (submission pins)
+  getRouteHealth(bbox)      → route health card
+])
+
+getCurrentLocation() ──→ getNearbyAlerts(lat, lng, 1000m) → proximity alert banner
+```
+
+---
+
+## How Data Flows Through Layers to Mobile Screens
+
+```
+User submits problem (L1)
+        │
+        ▼
+AI analyzes severity (L2) ──→ affects category breakdown in Community
+        │                      affects road/zone health scores on Map
+        ▼
+Validators vote (L3) ──────→ consensus_score drives "Trending Problems"
+        │                      in Community screen
+        ▼
+Proof generated at 75% (L4) → status changes to "validated" (green marker on Map)
+        │
+        ▼
+Escalation if overdue (L5) ─→ "Escalation Alerts" section in Community
+        │                       red markers on Map
+        ▼
+Resolution + rewards (L6) ──→ status "resolved" (cyan marker on Map)
+        │                      R-Score updates in "Top Validators" in Community
+        ▼
+Governance proposals (L7) ──→ "Active Governance" section in Community
+```
+
+---
+
 ## Mobile App Screens
 
-| Screen | Path | Layer |
-|--------|------|-------|
+| Screen | Path | Protocol Layers |
+|--------|------|----------------|
 | Home Feed | `(tabs)/index.tsx` | L1 |
 | Submit Problem | `(tabs)/submit.tsx` | L1 |
-| Ticket Detail | `(tabs)/ticket/[id].tsx` | L1-L6 |
+| Ticket Detail | `(tabs)/ticket/[id].tsx` | L1-L6 (full lifecycle: AI, votes, proof, escalation, rewards) |
 | Ticket List | `(tabs)/ticket/list.tsx` | L1 |
 | Proof Chain | `(tabs)/ticket/proof-chain.tsx` | L4 |
 | Validator Apply | `(tabs)/validator/apply.tsx` | L3 |
 | Validator Dashboard | `(tabs)/validator/dashboard.tsx` | L3 |
-| Map View | `(tabs)/map.tsx` | L1 + Infra |
-| Explore (Infrastructure) | `(tabs)/explore.tsx` | Infra |
-| Community | `(tabs)/community.tsx` | L1 |
+| Map View | `(tabs)/map.tsx` | L1+L2+L3+L5+L6 + Infrastructure Health |
+| Explore (Infrastructure) | `(tabs)/explore.tsx` | L1+L2 + Infrastructure Health |
+| Community | `(tabs)/community.tsx` | L1+L2+L3+L5+L6+L7 (all layers aggregated) |
 | Memory Chain | `(tabs)/memory-chain.tsx` | L4 |
-| Notifications | `(tabs)/notifications.tsx` | All |
-| Profile | `(tabs)/profile.tsx` | All |
+| Ride Mode | `ride-mode.tsx` | L1+L2+L3 + Infrastructure Health (real-time) |
+| Notifications | `(tabs)/notifications.tsx` | All layers |
+| Profile | `(tabs)/profile.tsx` | All layers |
 | Wallet | `(tabs)/wallet/index.tsx` | L6 |
 | Governance Proposals | `(tabs)/governance/proposals.tsx` | L7 |
 | Proposal Detail | `(tabs)/governance/proposal-detail.tsx` | L7 |
 | Create Proposal | `(tabs)/governance/create-proposal.tsx` | L7 |
 | Badges | `(tabs)/reputation/badges.tsx` | L6 |
-| Leaderboard | `(tabs)/reputation/leaderboard.tsx` | L6 |
+| Leaderboard | `(tabs)/reputation/leaderboard.tsx` | L3 + L6 |
 
 ---
 
